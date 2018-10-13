@@ -16,17 +16,25 @@ iFrame Tabs is a JQuery based solution for implementing a tab-based interface on
 ```
 <div id="wrapper">
         <ul id="tabs">
+        
             <!--these are the tabs that will be visible by default.-->
             <li class='current'><a class='tab' id='pages' href='#'>All Pages</a></li>
+            
         </ul>
  <div id="content">
+ 
      <!--For each tab, add a div here with id=(Tab link id from above + _content)-->
      <div id="pages_content" class="tabdata">
+     
      <!--any content here-->
+     
      <!--Links with class="tablink" will be opened in another tab.-->
          <a href="page1.html" class="tablink">Page 1</a>
-         <!--any content here-->
+         
+     <!--any content here-->
+         
      </div>
+     
  </div>
 </div>
 ```
